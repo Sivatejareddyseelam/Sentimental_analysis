@@ -11,10 +11,10 @@ library(e1071)
 library(SnowballC)
 library(caret)
 
-consumerKey<-"Z8lh3fQ0WmaXPajr4vN3wzsaF"
-consumerSecret<-"Q1sjgjpzC9EOWFc9KIxp51vHR9zTU3ublItoECM8v2tyUIyCKa"
-accessToken<-"1101711618755444736-ZJQYY3iEiT6ma22FQOkEX9xoyExxFT"
-accessTokenSecret<-"JHBgc0eTA96xex8Hr6qj0kTw35GtVWZylfCSRd3ZcF4HB"
+consumerKey<-""
+consumerSecret<-""
+accessToken<-""
+accessTokenSecret<-""
 setup_twitter_oauth(consumerKey,consumerSecret,accessToken,accessTokenSecret)
 
 Tweets=searchTwitter("#Area51",n=1000,lang="en")
